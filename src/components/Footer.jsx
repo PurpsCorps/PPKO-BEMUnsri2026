@@ -59,12 +59,9 @@ function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-black/5">
           <p className="text-sm font-medium text-muted mb-4 md:mb-0">
-            © 2026 PPKO BEM UNSRI. Hak Cipta Dilindungi.
+            © 2026 PPKO BEM UNSRI.
           </p>
-          <div className="flex gap-8">
-            <a href="#" className="text-sm font-medium text-muted hover:text-primary-text transition-colors">Syarat & Ketentuan</a>
-            <a href="#" className="text-sm font-medium text-muted hover:text-primary-text transition-colors">Kebijakan Privasi</a>
-          </div>
+          <div className="flex gap-8"></div>
         </div>
       </div>
     </footer>
