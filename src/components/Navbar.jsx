@@ -17,6 +17,7 @@ function Navbar() {
     { label: 'Tentang', href: '#about' },
     { label: 'Lokasi', href: '#lokasi' },
     { label: 'Program', href: '#program' },
+    { label: 'Publikasi', href: '#publikasi' },
     { label: 'FAQ', href: '#faq' },
   ]
 

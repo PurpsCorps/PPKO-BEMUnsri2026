@@ -47,7 +47,16 @@ function Footer() {
             </div>
           </div>
 
-          <div className="col-span-1 md:col-span-3 flex flex-col items-center md:items-start text-center md:text-left">
+          <div className="col-span-1 md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left">
+            <h2 className="text-xs font-bold uppercase tracking-widest text-primary-text mb-8">Tautan Cepat</h2>
+            <div className="flex flex-col gap-3 items-center md:items-start">
+              <a href="#publikasi" className="text-base font-medium text-muted hover:text-accent transition-colors">Publikasi Berita</a>
+              <a href="#program" className="text-base font-medium text-muted hover:text-accent transition-colors">Program Kami</a>
+              <a href="#galeri" className="text-base font-medium text-muted hover:text-accent transition-colors">Galeri Desa</a>
+            </div>
+          </div>
+
+          <div className="col-span-1 md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left">
             <h2 className="text-xs font-bold uppercase tracking-widest text-primary-text mb-8">Didukung Oleh</h2>
             <div className="flex flex-col gap-3 items-center md:items-start">
               <span className="text-base font-bold text-primary-text">Pemerintah Desa</span>

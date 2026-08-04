@@ -18,6 +18,16 @@ export default {
         'accent-green': '#448342', // Natural Green
         'accent-gold': '#D99B26', // Golden Yellow
       },
+      keyframes: {
+        fadeInUp: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        }
+      },
+      animation: {
+        'fade-in-up': 'fadeInUp 0.5s ease-out forwards',
+        'spin-slow': 'spin 3s linear infinite',
+      }
     },
   },
   plugins: [],
