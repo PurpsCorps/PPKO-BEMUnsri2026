@@ -16,8 +16,7 @@ const programData = {
   ],
   luaran: [
     { title: 'Solar Dryer Cerdas IoT', desc: 'Unit pengeringan bertenaga surya dengan sensor DHT22, ESP32, panel surya 200Wp, dan sistem kipas ventilasi otomatis.' },
-    { title: 'Produk Diversifikasi', desc: 'Minimal 3 varian produk berstandar (seperti Fish Skin Chips) dengan kemasan menarik, berlogo, dan memiliki NIB.' },
-    { title: 'Kelompok UMKM Digital', desc: 'Terbentuknya kelompok UMKM Digital Tanjung Pering dengan struktur kepengurusan resmi dan platform e-commerce.' },
+    { title: 'Produk Diversifikasi & UMKM Digital', desc: 'Produk berstandar dengan kemasan menarik, berlogo, dan memiliki NIB, yang dipasarkan secara online oleh kelompok UMKM Digital Tanjung Pering.', link: '#katalog-produk', linkLabel: 'Lihat Katalog Produk' },
     { title: 'Dokumentasi & Publikasi', desc: 'Buku refleksi ber-ISBN, Artikel Ilmiah, Video Dokumenter, Modul Operasional Solar Dryer IoT, dan publikasi berita.', link: '#publikasi', linkLabel: 'Lihat Semua Liputan Berita' },
   ],
   indikator: [
@@ -163,8 +162,6 @@ function Outputs() {
                     {item.link && (
                       <a 
                         href={item.link} 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
                         className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-accent hover:text-accent-dark transition-colors group/link"
                       >
                         {item.linkLabel}

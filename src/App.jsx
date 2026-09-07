@@ -7,6 +7,7 @@ import HeroSection from './components/HeroSection'
 import PotretDesa from './components/PotretDesa'
 import LocationService from './components/LocationService'
 import Outputs from './components/Outputs'
+import ProductCatalog from './components/ProductCatalog'
 import Publikasi from './components/Publikasi'
 import FAQ from './components/FAQ'
 import Gallery from './components/Gallery'
@@ -28,6 +29,7 @@ function App() {
       <PotretDesa />
       <LocationService />
       <Outputs />
+      <ProductCatalog />
       <Publikasi />
       <FAQ />
       <Gallery />
