@@ -2,9 +2,9 @@ import { useState } from 'react'
 
 const galleryData = {
   kegiatan: [
-    { src: '/images/gambar3.png', alt: 'Pengeringan Konvensional Tanjung Pering' },
-    { src: '/images/gambar1.png', alt: 'Diskusi Bersama Perangkat Desa' },
-    { src: '/images/gambar2.png', alt: 'Kunjungan ke Desa Tanjung Pering' },
+    { src: '/images/gambar32.png', alt: 'Pengeringan Konvensional Tanjung Pering' },
+    { src: '/images/gambar12.png', alt: 'Kunjungan Ditmawa ke Desa Tanjung Pering' },
+    { src: '/images/gambar22.png', alt: 'Proses Pembuatan Solar Dryer IoT' },
   ],
   pressRelease: [
     {
@@ -114,7 +114,7 @@ function Gallery() {
 
         {/* Content Section */}
         <div className="min-h-[400px]">
-          
+
           {/* Kegiatan Tab */}
           {activeTab === 'kegiatan' && (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 animate-fade-in-up">
@@ -147,26 +147,26 @@ function Gallery() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in-up">
               {galleryData.pressRelease.map((pr) => (
                 <div key={pr.id} className="group relative bg-white rounded-3xl p-4 shadow-lg shadow-black/5 hover:shadow-2xl hover:shadow-accent/20 hover:-translate-y-2 transition-all duration-500 border border-slate-100 flex flex-col">
-                  
+
                   {/* Poster Image */}
                   <div className="overflow-hidden rounded-2xl aspect-[4/5] mb-5 relative bg-slate-100">
-                    <img 
-                      src={pr.src} 
-                      alt={pr.title} 
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
+                    <img
+                      src={pr.src}
+                      alt={pr.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                       onError={(e) => {
-                        e.target.onerror = null; 
+                        e.target.onerror = null;
                         // Fallback image using SVG if the user's image path is not found
                         e.target.src = "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22400%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A20pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1%22%3E%3Crect%20width%3D%22400%22%20height%3D%22500%22%20fill%3D%22%23eee%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22100%22%20y%3D%22258%22%3E+Poster+Press+Release+%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E";
                       }}
                     />
-                    
+
                     {/* Hover Overlay with Button */}
                     <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-sm">
-                      <a 
-                        href={pr.link} 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
+                      <a
+                        href={pr.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 bg-white text-accent px-6 py-3 rounded-full font-bold text-sm shadow-xl transition-all duration-300 hover:scale-105 flex items-center gap-2"
                       >
                         Lihat Postingan

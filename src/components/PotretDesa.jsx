@@ -53,7 +53,7 @@ function PotretDesa() {
             <div className="absolute -inset-2 md:-inset-4 bg-gradient-to-tr from-accent/20 to-accent-green/20 rounded-[2rem] md:rounded-[2.5rem] transform -rotate-3 transition-transform duration-700 hover:rotate-0"></div>
             <div className="img-mask shadow-2xl shadow-accent/10 border border-white/50 relative">
               <img
-                src="/images/gambar3.png"
+                src="/images/gambar32.png"
                 alt="Pengeringan Kerupuk Kemplang Ikan Konvensional"
                 className="w-full aspect-[4/3] object-cover"
               />

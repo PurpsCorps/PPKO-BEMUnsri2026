@@ -19,7 +19,7 @@ const faqData = [
   {
     question: 'Siapa saja pihak yang terlibat dalam program pendampingan ini?',
     answer:
-      'Program ini diinisiasi oleh BEM UNSRI 2026, berkolaborasi langsung dengan Pemerintah Desa Tanjung Pering, Kelompok Masyarakat Pengawas (Pokmaswas) Bina Nelayan dari Dinas Perikanan Kabupaten Ogan Ilir, serta PT. Bank Syariah Indonesia (BSI) Cabang Palembang.'
+      'Program ini diinisiasi oleh BEM UNSRI 2026, berkolaborasi langsung dengan Pemerintah Desa Tanjung Pering, Kelompok Masyarakat Pengawas (Pokmaswas) Bina Nelayan dari Dinas Perindustrian, Perdagangan, Koperasi dan UKM Kab. Ogan Ilir, serta PT. Bank Syariah Indonesia (BSI) Cabang Palembang.'
   }
 ]
 

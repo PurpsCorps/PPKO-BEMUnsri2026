@@ -60,8 +60,8 @@ function Footer() {
           <div className="col-span-1 md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left">
             <h2 className="text-xs font-bold uppercase tracking-widest text-primary-text mb-8">Didukung Oleh</h2>
             <div className="flex flex-col gap-3 items-center md:items-start">
-              <span className="text-base font-bold text-primary-text">Pemerintah Desa</span>
-              <span className="text-base font-bold text-primary-text">Dinas Perikanan Ogan Ilir</span>
+              <span className="text-base font-bold text-primary-text">Pemerintah Desa Tanjung Pering</span>
+              <span className="text-base font-bold text-primary-text">Dinas Perindustrian, Perdagangan, Koperasi dan UKM Kab. Ogan Ilir</span>
               <span className="text-base font-bold text-primary-text">PT.BSI Cabang Palembang</span>
             </div>
           </div>
